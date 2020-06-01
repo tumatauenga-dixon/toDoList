@@ -67,6 +67,8 @@ class SinglyLinkedList {
     }
 }
 
+console.log("To-Do List")
+
 let toDoList = new SinglyLinkedList()
 toDoList.add("Peer-coding");
 toDoList.add("COM's Presentation Work");
@@ -77,3 +79,12 @@ toDoList.pop();
 toDoList.set(2, "NOT DOING DES ASSESSMENT 2")
 
 toDoList.print();
+
+console.log("Due Dates")
+
+let labDates = new SinglyLinkedList()
+labDates.add("Labs 5-10 due 5/06");
+labDates.add("Lab 13 due Week 15");
+labDates.add("Lab 14 due Week 16");
+
+labDates.print();
